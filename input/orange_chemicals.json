@@ -1,0 +1,117 @@
+{
+  "227": {
+    "name": "Anthranilic acid",
+    "smiles": "C1=CC=C(C(=C1)C(=O)O)N",
+    "svg": "chemical_structures/227.svg"
+  },
+  "241": {
+    "name": "Benzene",
+    "smiles": "C1=CC=CC=C1",
+    "svg": "chemical_structures/241.svg"
+  },
+  "24408": {
+    "name": "Bromine",
+    "smiles": "BrBr",
+    "svg": "chemical_structures/24408.svg"
+  },
+  "53627823": {
+    "name": "n-Butyllithium",
+    "smiles": "[Li].CCC[CH2]",
+    "svg": "chemical_structures/53627823.svg"
+  },
+  "6348": {
+    "name": "Carbon disulfide",
+    "smiles": "C(=S)=S",
+    "svg": "chemical_structures/6348.svg"
+  },
+  "5943": {
+    "name": "Carbon tetrachloride",
+    "smiles": "C(Cl)(Cl)(Cl)Cl",
+    "svg": "chemical_structures/5943.svg"
+  },
+  "7954": {
+    "name": "Cyanuric chloride",
+    "smiles": "C1(=NC(=NC(=N1)Cl)Cl)Cl",
+    "svg": "chemical_structures/7954.svg"
+  },
+  "6628": {
+    "name": "Diazald",
+    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)N(C)N=O",
+    "svg": "chemical_structures/6628.svg"
+  },
+  "5462977": {
+    "name": "Diethyl azodicarboxylate",
+    "smiles": "CCOC(=O)/N=N/C(=O)OCC",
+    "svg": "chemical_structures/5462977.svg"
+  },
+  "14487": {
+    "name": "Diisobutylaluminum hydride",
+    "smiles": "CC(C)C[AlH]CC(C)C",
+    "svg": "chemical_structures/14487.svg"
+  },
+  "24842": {
+    "name": "Hydrazine sulfate",
+    "smiles": "NN.OS(=O)(=O)O",
+    "svg": "chemical_structures/24842.svg"
+  },
+  "23931": {
+    "name": "Mercury",
+    "smiles": "[Hg]",
+    "svg": "chemical_structures/23931.svg"
+  },
+  "24085": {
+    "name": "Mercury(II) chloride",
+    "smiles": "Cl[Hg]Cl",
+    "svg": "chemical_structures/24085.svg"
+  },
+  "6328": {
+    "name": "Methyl iodide",
+    "smiles": "CI",
+    "svg": "chemical_structures/6328.svg"
+  },
+  "944": {
+    "name": "Nitric acid",
+    "smiles": "[N+](=O)(O)[O-]",
+    "svg": "chemical_structures/944.svg"
+  },
+  "30318": {
+    "name": "Osmium tetroxide",
+    "smiles": "O=[Os](=O)(=O)=O",
+    "svg": "chemical_structures/30318.svg"
+  },
+  "5462309": {
+    "name": "Phosphorus",
+    "smiles": "P",
+    "svg": "chemical_structures/5462309.svg"
+  },
+  "14817": {
+    "name": "Phosphorus pentasulfide",
+    "smiles": "P12(=S)SP3(=S)SP(=S)(S1)SP(=S)(S2)S3",
+    "svg": "chemical_structures/14817.svg"
+  },
+  "24813": {
+    "name": "Phosphoryl chloride",
+    "smiles": "O=P(Cl)(Cl)Cl",
+    "svg": "chemical_structures/24813.svg"
+  },
+  "33557": {
+    "name": "Sodium azide",
+    "smiles": "[N-]=[N+]=[N-].[Na+]",
+    "svg": "chemical_structures/33557.svg"
+  },
+  "8929": {
+    "name": "Sodium cyanide",
+    "smiles": "[C-]#N.[Na+]",
+    "svg": "chemical_structures/8929.svg"
+  },
+  "24648": {
+    "name": "Sulfuryl chloride",
+    "smiles": "O=S(=O)(Cl)Cl",
+    "svg": "chemical_structures/24648.svg"
+  },
+  "24386": {
+    "name": "Thionyl chloride",
+    "smiles": "O=S(Cl)Cl",
+    "svg": "chemical_structures/24386.svg"
+  }
+}

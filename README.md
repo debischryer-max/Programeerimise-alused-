@@ -1,61 +1,66 @@
-# PubChem Index Card Generator
+# Chemical Structure Quiz
 
-Queries PubChem for a chemical compound by name and generates a PDF of landscape A6 index cards. Each compound gets two pages: the name on the front and the molecular structure drawing with SMILES on the back.
+A command-line quiz tool for learning to recognise organic chemistry structures. Given a molecular structure drawing, identify the correct chemical from a numbered list.
 
-## Requirements
+## How to use
 
-- Python 3.8 or later
-- [pubchempy](https://github.com/mcs07/PubChemPy) — PubChem REST API client
-- [rdkit](https://www.rdkit.org/) — cheminformatics library for molecule drawing
-- [reportlab](https://www.reportlab.com/) — PDF generation
+### Setup
 
-## Installation
-
-Install all dependencies with pip:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-> **Note:** On systems that enforce PEP 668 (e.g. Homebrew Python on macOS), you may need to use a virtual environment or pass `--break-system-packages`:
-> ```bash
-> pip install -r requirements.txt --break-system-packages
-> ```
-
-### Using a virtual environment (recommended)
+Run the program:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+python3 main.py
 ```
 
-## Usage
+### Menu options
 
-```bash
-python3 query_pubchem.py
-```
+#### 1. Fetch chemicals
 
-You will be prompted to enter a chemical name:
+Fetches chemical data from PubChem for a selected availability tier (green, orange, or blue) and saves it to `input/<tier>_chemicals.json`. Also generates SVG structure drawings for each compound into `chemical_structures/`.
 
-```
-Enter a chemical name: aspirin
-Found 1 compound(s).
-CC(=O)OC1=CC=CC=C1C(=O)O
-PDF saved as aspirin.pdf
-```
+Run this once per tier before creating any tests.
 
-The output PDF is saved in the current directory, named after the compound (spaces replaced with underscores). Each compound found produces two pages in the PDF:
+#### 2. Create test
 
-| Page | Content |
-|------|---------|
-| Front | Common name, IUPAC name, PubChem CID |
-| Back | Molecular structure drawing, SMILES string |
+Select one or more chemical tiers to draw from (e.g. `1 3` for green and blue). The program randomly picks 10 chemicals and generates one image per chemical showing:
 
-## Files
+- The molecular structure on the left
+- A numbered list of all 10 chemical names on the right
 
-| File | Description |
-|------|-------------|
-| `query_pubchem.py` | Entry point — prompts for input, queries PubChem, generates PDF |
-| `index_card_pdf.py` | PDF formatting logic (`create_index_card_pdf` function) |
-| `requirements.txt` | Python package dependencies |
+Images and the answer key are saved to `tests/<tier>_test_<n>/`.
+
+#### 3. Run test
+
+Select a test to attempt. Each structure image is opened in your system viewer and you enter the number of the matching chemical name. Your results are displayed as a table and saved to `tests/<tier>_test_<n>/results_<datetime>.json`.
+
+#### 4. Show results
+
+Lists all completed test attempts across all tests. Select one to view a results table showing each chemical, the correct answer, your answer, and a pass/fail indicator.
+
+#### 5. Exit
+
+## Python packages used
+
+| Package | Purpose |
+|---------|---------|
+| [pubchempy](https://github.com/mcs07/PubChemPy) | Queries the PubChem REST API to fetch compound data (CID, SMILES) by name |
+| [rdkit](https://www.rdkit.org/) | Parses SMILES strings and renders molecular structure drawings as SVG and PNG |
+| [Pillow](https://python-pillow.org/) | Composites the molecule image and name list into a single quiz image |
+| [reportlab](https://www.reportlab.com/) | PDF generation (dependency of svglib) |
+| [svglib](https://github.com/deeplook/svglib) | SVG rendering support |
+
+## How Claude Code was used to write this package
+
+This package was written entirely through conversation with Claude Code, Anthropic's AI coding assistant, without manually editing any source files.
+
+The development process was iterative and conversational. It started with a simple script that queried PubChem for a single chemical by name. Through a series of natural language instructions, Claude Code incrementally built out the full application — refactoring the single script into a multi-file project, adding the quiz image generation, the interactive test runner, the results display, and the multi-tier chemical fetching.
+
+Claude Code handled all structural decisions: splitting logic into separate modules (`pubchem.py`, `svg.py`, `chemicals_db.py`, etc.), moving files into `src/` and `input/` directories, updating all import paths, and keeping the code consistent across refactors. It also caught and fixed its own mistakes, such as a missing `import json` introduced during a refactor.
+
+The README itself was written by Claude Code based on a brief from the author.

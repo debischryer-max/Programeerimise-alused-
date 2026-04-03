@@ -1,0 +1,327 @@
+{
+  "176": {
+    "name": "Acetic acid",
+    "smiles": "CC(=O)O",
+    "svg": "chemical_structures/176.svg"
+  },
+  "180": {
+    "name": "Acetone",
+    "smiles": "CC(=O)C",
+    "svg": "chemical_structures/180.svg"
+  },
+  "5359268": {
+    "name": "Aluminum metal",
+    "smiles": "[Al]",
+    "svg": "chemical_structures/5359268.svg"
+  },
+  "222": {
+    "name": "Ammonia",
+    "smiles": "N",
+    "svg": "chemical_structures/222.svg"
+  },
+  "25517": {
+    "name": "Ammonium chloride",
+    "smiles": "[NH4+].[Cl-]",
+    "svg": "chemical_structures/25517.svg"
+  },
+  "23968": {
+    "name": "Argon",
+    "smiles": "[Ar]",
+    "svg": "chemical_structures/23968.svg"
+  },
+  "243": {
+    "name": "Benzoic acid",
+    "smiles": "C1=CC=C(C=C1)C(=O)O",
+    "svg": "chemical_structures/243.svg"
+  },
+  "7628": {
+    "name": "Boric acid",
+    "smiles": "B(O)(O)O",
+    "svg": "chemical_structures/7628.svg"
+  },
+  "5284359": {
+    "name": "Calcium chloride",
+    "smiles": "[Cl-].[Cl-].[Ca+2]",
+    "svg": "chemical_structures/5284359.svg"
+  },
+  "280": {
+    "name": "Carbon dioxide",
+    "smiles": "C(=O)=O",
+    "svg": "chemical_structures/280.svg"
+  },
+  "6344": {
+    "name": "Dichloromethane",
+    "smiles": "C(Cl)Cl",
+    "svg": "chemical_structures/6344.svg"
+  },
+  "3283": {
+    "name": "Diethyl ether",
+    "smiles": "CCOCC",
+    "svg": "chemical_structures/3283.svg"
+  },
+  "6228": {
+    "name": "Dimethylformamide",
+    "smiles": "CN(C)C=O",
+    "svg": "chemical_structures/6228.svg"
+  },
+  "679": {
+    "name": "Dimethylsulfoxide",
+    "smiles": "CS(=O)C",
+    "svg": "chemical_structures/679.svg"
+  },
+  "702": {
+    "name": "Ethanol",
+    "smiles": "CCO",
+    "svg": "chemical_structures/702.svg"
+  },
+  "8857": {
+    "name": "Ethyl acetate",
+    "smiles": "CCOC(=O)C",
+    "svg": "chemical_structures/8857.svg"
+  },
+  "174": {
+    "name": "Ethylene glycol",
+    "smiles": "C(CO)O",
+    "svg": "chemical_structures/174.svg"
+  },
+  "712": {
+    "name": "Formaldehyde",
+    "smiles": "C=O",
+    "svg": "chemical_structures/712.svg"
+  },
+  "284": {
+    "name": "Formic acid",
+    "smiles": "C(=O)O",
+    "svg": "chemical_structures/284.svg"
+  },
+  "5360835": {
+    "name": "Gallium",
+    "smiles": "[Ga]",
+    "svg": "chemical_structures/5360835.svg"
+  },
+  "33032": {
+    "name": "Glutamic acid",
+    "smiles": "C(CC(=O)O)[C@@H](C(=O)O)N",
+    "svg": "chemical_structures/33032.svg"
+  },
+  "753": {
+    "name": "Glycerol",
+    "smiles": "C(C(CO)O)O",
+    "svg": "chemical_structures/753.svg"
+  },
+  "8058": {
+    "name": "Hexane",
+    "smiles": "CCCCCC",
+    "svg": "chemical_structures/8058.svg"
+  },
+  "313": {
+    "name": "Hydrochloric acid",
+    "smiles": "Cl",
+    "svg": "chemical_structures/313.svg"
+  },
+  "784": {
+    "name": "Hydrogen peroxide",
+    "smiles": "OO",
+    "svg": "chemical_structures/784.svg"
+  },
+  "785": {
+    "name": "Hydroquinone",
+    "smiles": "C1=CC(=CC=C1O)O",
+    "svg": "chemical_structures/785.svg"
+  },
+  "23925": {
+    "name": "Iron",
+    "smiles": "[Fe]",
+    "svg": "chemical_structures/23925.svg"
+  },
+  "3776": {
+    "name": "Isopropanol",
+    "smiles": "CC(C)O",
+    "svg": "chemical_structures/3776.svg"
+  },
+  "5462224": {
+    "name": "Magnesium",
+    "smiles": "[Mg]",
+    "svg": "chemical_structures/5462224.svg"
+  },
+  "24083": {
+    "name": "Magnesium sulfate",
+    "smiles": "[O-]S(=O)(=O)[O-].[Mg+2]",
+    "svg": "chemical_structures/24083.svg"
+  },
+  "887": {
+    "name": "Methanol",
+    "smiles": "CO",
+    "svg": "chemical_structures/887.svg"
+  },
+  "938": {
+    "name": "Nicotinic acid",
+    "smiles": "C1=CC(=CN=C1)C(=O)O",
+    "svg": "chemical_structures/938.svg"
+  },
+  "947": {
+    "name": "Nitrogen",
+    "smiles": "N#N",
+    "svg": "chemical_structures/947.svg"
+  },
+  "971": {
+    "name": "Oxalic acid",
+    "smiles": "C(=O)(C(=O)O)O",
+    "svg": "chemical_structures/971.svg"
+  },
+  "23712892": {
+    "name": "Oxone",
+    "smiles": "OOS(=O)(=O)[O-].[K+]",
+    "svg": "chemical_structures/23712892.svg"
+  },
+  "1004": {
+    "name": "Phosphoric acid",
+    "smiles": "OP(=O)(O)O",
+    "svg": "chemical_structures/1004.svg"
+  },
+  "6811": {
+    "name": "Phthalic anhydride",
+    "smiles": "C1=CC=C2C(=C1)C(=O)OC2=O",
+    "svg": "chemical_structures/6811.svg"
+  },
+  "11430": {
+    "name": "Potassium carbonate",
+    "smiles": "C(=O)([O-])[O-].[K+].[K+]",
+    "svg": "chemical_structures/11430.svg"
+  },
+  "4873": {
+    "name": "Potassium chloride",
+    "smiles": "[Cl-].[K+]",
+    "svg": "chemical_structures/4873.svg"
+  },
+  "24502": {
+    "name": "Potassium dichromate",
+    "smiles": "[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].[K+].[K+]",
+    "svg": "chemical_structures/24502.svg"
+  },
+  "522689": {
+    "name": "Potassium fluoride",
+    "smiles": "[F-].[K+]",
+    "svg": "chemical_structures/522689.svg"
+  },
+  "14797": {
+    "name": "Potassium hydroxide",
+    "smiles": "[OH-].[K+]",
+    "svg": "chemical_structures/14797.svg"
+  },
+  "4875": {
+    "name": "Potassium iodide",
+    "smiles": "[K+].[I-]",
+    "svg": "chemical_structures/4875.svg"
+  },
+  "24434": {
+    "name": "Potassium nitrate",
+    "smiles": "[N+](=O)([O-])[O-].[K+]",
+    "svg": "chemical_structures/24434.svg"
+  },
+  "516875": {
+    "name": "Potassium permanganate",
+    "smiles": "[O-][Mn](=O)(=O)=O.[K+]",
+    "svg": "chemical_structures/516875.svg"
+  },
+  "24470": {
+    "name": "Silver nitrate",
+    "smiles": "[N+](=O)([O-])[O-].[Ag+]",
+    "svg": "chemical_structures/24470.svg"
+  },
+  "516892": {
+    "name": "Sodium bicarbonate",
+    "smiles": "C(=O)(O)[O-].[Na+]",
+    "svg": "chemical_structures/516892.svg"
+  },
+  "253881": {
+    "name": "Sodium bromide",
+    "smiles": "[Na+].[Br-]",
+    "svg": "chemical_structures/253881.svg"
+  },
+  "10340": {
+    "name": "Sodium carbonate",
+    "smiles": "C(=O)([O-])[O-].[Na+].[Na+]",
+    "svg": "chemical_structures/10340.svg"
+  },
+  "5234": {
+    "name": "Sodium chloride",
+    "smiles": "[Na+].[Cl-]",
+    "svg": "chemical_structures/5234.svg"
+  },
+  "24489": {
+    "name": "Sodium dithionite",
+    "smiles": "[O-]S(=O)S(=O)[O-].[Na+].[Na+]",
+    "svg": "chemical_structures/24489.svg"
+  },
+  "14798": {
+    "name": "Sodium hydroxide",
+    "smiles": "[OH-].[Na+]",
+    "svg": "chemical_structures/14798.svg"
+  },
+  "656671": {
+    "name": "Sodium metabisulfite",
+    "smiles": "[O-]S(=O)S(=O)(=O)[O-].[Na+].[Na+]",
+    "svg": "chemical_structures/656671.svg"
+  },
+  "23668193": {
+    "name": "Sodium nitrite",
+    "smiles": "N(=O)[O-].[Na+]",
+    "svg": "chemical_structures/23668193.svg"
+  },
+  "24436": {
+    "name": "Sodium sulfate",
+    "smiles": "[O-]S(=O)(=O)[O-].[Na+].[Na+]",
+    "svg": "chemical_structures/24436.svg"
+  },
+  "14804": {
+    "name": "Sodium sulfide",
+    "smiles": "[Na+].[Na+].[S-2]",
+    "svg": "chemical_structures/14804.svg"
+  },
+  "24477": {
+    "name": "Sodium thiosulfate",
+    "smiles": "[O-]S(=O)(=S)[O-].[Na+].[Na+]",
+    "svg": "chemical_structures/24477.svg"
+  },
+  "5362487": {
+    "name": "Sulfur",
+    "smiles": "S",
+    "svg": "chemical_structures/5362487.svg"
+  },
+  "1118": {
+    "name": "Sulfuric acid",
+    "smiles": "OS(=O)(=O)O",
+    "svg": "chemical_structures/1118.svg"
+  },
+  "6909": {
+    "name": "Trichloroisocyanuric acid",
+    "smiles": "C1(=O)N(C(=O)N(C(=O)N1Cl)Cl)Cl",
+    "svg": "chemical_structures/6909.svg"
+  },
+  "5352426": {
+    "name": "Tin",
+    "smiles": "[Sn]",
+    "svg": "chemical_structures/5352426.svg"
+  },
+  "1140": {
+    "name": "Toluene",
+    "smiles": "CC1=CC=CC=C1",
+    "svg": "chemical_structures/1140.svg"
+  },
+  "1176": {
+    "name": "Urea",
+    "smiles": "C(=O)(N)N",
+    "svg": "chemical_structures/1176.svg"
+  },
+  "962": {
+    "name": "Water",
+    "smiles": "O",
+    "svg": "chemical_structures/962.svg"
+  },
+  "23994": {
+    "name": "Zinc",
+    "smiles": "[Zn]",
+    "svg": "chemical_structures/23994.svg"
+  }
+}

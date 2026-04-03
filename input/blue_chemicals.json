@@ -1,0 +1,372 @@
+{
+  "6342": {
+    "name": "Acetonitrile",
+    "smiles": "CC#N",
+    "svg": "chemical_structures/6342.svg"
+  },
+  "6367": {
+    "name": "Acetyl chloride",
+    "smiles": "CC(=O)Cl",
+    "svg": "chemical_structures/6367.svg"
+  },
+  "24012": {
+    "name": "Aluminum chloride",
+    "smiles": "[Al](Cl)(Cl)Cl",
+    "svg": "chemical_structures/24012.svg"
+  },
+  "11143": {
+    "name": "Aluminum isopropoxide",
+    "smiles": "CC(C)[O-].CC(C)[O-].CC(C)[O-].[Al+3]",
+    "svg": "chemical_structures/11143.svg"
+  },
+  "6115": {
+    "name": "Aniline",
+    "smiles": "C1=CC=C(C=C1)N",
+    "svg": "chemical_structures/6115.svg"
+  },
+  "3102": {
+    "name": "Benzophenone",
+    "smiles": "C1=CC=C(C=C1)C(=O)C2=CC=CC=C2",
+    "svg": "chemical_structures/3102.svg"
+  },
+  "4650": {
+    "name": "p-Benzoquinone",
+    "smiles": "C1=CC(=O)C=CC1=O",
+    "svg": "chemical_structures/4650.svg"
+  },
+  "244": {
+    "name": "Benzyl alcohol",
+    "smiles": "C1=CC=C(C=C1)CO",
+    "svg": "chemical_structures/244.svg"
+  },
+  "7503": {
+    "name": "Benzyl chloride",
+    "smiles": "C1=CC=C(C=C1)CCl",
+    "svg": "chemical_structures/7503.svg"
+  },
+  "10387": {
+    "name": "Benzyl chloroformate",
+    "smiles": "C1=CC=C(C=C1)COC(=O)Cl",
+    "svg": "chemical_structures/10387.svg"
+  },
+  "11062302": {
+    "name": "Borane-tetrahydrofuran",
+    "smiles": "[B].C1CCOC1",
+    "svg": "chemical_structures/11062302.svg"
+  },
+  "7961": {
+    "name": "Bromobenzene",
+    "smiles": "C1=CC=C(C=C1)Br",
+    "svg": "chemical_structures/7961.svg"
+  },
+  "70297": {
+    "name": "m-Chloroperoxybenzoic acid",
+    "smiles": "C1=CC(=CC(=C1)Cl)C(=O)OO",
+    "svg": "chemical_structures/70297.svg"
+  },
+  "24871": {
+    "name": "Chromium(II) chloride",
+    "smiles": "Cl[Cr]Cl",
+    "svg": "chemical_structures/24871.svg"
+  },
+  "24593": {
+    "name": "Copper(I) bromide",
+    "smiles": "[Cu]Br",
+    "svg": "chemical_structures/24593.svg"
+  },
+  "62652": {
+    "name": "Copper(I) chloride",
+    "smiles": "Cl[Cu]",
+    "svg": "chemical_structures/62652.svg"
+  },
+  "24014": {
+    "name": "Copper(II) chloride",
+    "smiles": "Cl[Cu]Cl",
+    "svg": "chemical_structures/24014.svg"
+  },
+  "6432705": {
+    "name": "Copper(I) iodide",
+    "smiles": "[Cu+].[I-]",
+    "svg": "chemical_structures/6432705.svg"
+  },
+  "7967": {
+    "name": "Cyclohexanone",
+    "smiles": "C1CCC(=O)CC1",
+    "svg": "chemical_structures/7967.svg"
+  },
+  "10868": {
+    "name": "Dicyclohexylcarbodiimide",
+    "smiles": "C1CCC(CC1)N=C=NC2CCCCC2",
+    "svg": "chemical_structures/10868.svg"
+  },
+  "6327654": {
+    "name": "Diethyl phosphite",
+    "smiles": "CCO[P+](=O)OCC",
+    "svg": "chemical_structures/6327654.svg"
+  },
+  "6346": {
+    "name": "Diiodomethane",
+    "smiles": "C(I)I",
+    "svg": "chemical_structures/6346.svg"
+  },
+  "13361": {
+    "name": "Dimethyl phosphite",
+    "smiles": "COP(=O)OC",
+    "svg": "chemical_structures/13361.svg"
+  },
+  "6340": {
+    "name": "Ethyl iodide",
+    "smiles": "CCI",
+    "svg": "chemical_structures/6340.svg"
+  },
+  "260": {
+    "name": "Hydrobromic acid",
+    "smiles": "Br",
+    "svg": "chemical_structures/260.svg"
+  },
+  "443297": {
+    "name": "Hydroxylamine hydrochloride",
+    "smiles": "NO.Cl",
+    "svg": "chemical_structures/443297.svg"
+  },
+  "807": {
+    "name": "Iodine",
+    "smiles": "II",
+    "svg": "chemical_structures/807.svg"
+  },
+  "11025": {
+    "name": "Lead(IV) acetate",
+    "smiles": "CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].CC(=O)[O-].[Pb+2]",
+    "svg": "chemical_structures/11025.svg"
+  },
+  "28112": {
+    "name": "Lithium aluminum hydride",
+    "smiles": "[Li+].[AlH4-]",
+    "svg": "chemical_structures/28112.svg"
+  },
+  "3028194": {
+    "name": "Lithium",
+    "smiles": "[Li]",
+    "svg": "chemical_structures/3028194.svg"
+  },
+  "14801": {
+    "name": "Manganese dioxide",
+    "smiles": "O=[Mn]=O",
+    "svg": "chemical_structures/14801.svg"
+  },
+  "6364545": {
+    "name": "Methylamine hydrochloride",
+    "smiles": "CN.Cl",
+    "svg": "chemical_structures/6364545.svg"
+  },
+  "931": {
+    "name": "Naphthalene",
+    "smiles": "C1=CC=C2C=CC=CC2=C1",
+    "svg": "chemical_structures/931.svg"
+  },
+  "67184": {
+    "name": "N-bromosuccinimide",
+    "smiles": "C1CC(=O)N(C1=O)Br",
+    "svg": "chemical_structures/67184.svg"
+  },
+  "24385": {
+    "name": "Nickel(II) chloride",
+    "smiles": "Cl[Ni]Cl",
+    "svg": "chemical_structures/24385.svg"
+  },
+  "7416": {
+    "name": "Nitrobenzene",
+    "smiles": "C1=CC=C(C=C1)[N+](=O)[O-]",
+    "svg": "chemical_structures/7416.svg"
+  },
+  "82029": {
+    "name": "N-methylmorpholine N-oxide",
+    "smiles": "C[N+]1(CCOCC1)[O-]",
+    "svg": "chemical_structures/82029.svg"
+  },
+  "65578": {
+    "name": "Oxalyl chloride",
+    "smiles": "C(=O)(C(=O)Cl)Cl",
+    "svg": "chemical_structures/65578.svg"
+  },
+  "23938": {
+    "name": "Palladium on carbon",
+    "smiles": "[Pd]",
+    "svg": "chemical_structures/23938.svg"
+  },
+  "167845": {
+    "name": "Palladium(II) acetate",
+    "smiles": "CC(=O)[O-].CC(=O)[O-].[Pd+2]",
+    "svg": "chemical_structures/167845.svg"
+  },
+  "996": {
+    "name": "Phenol",
+    "smiles": "C1=CC=C(C=C1)O",
+    "svg": "chemical_structures/996.svg"
+  },
+  "24819": {
+    "name": "Phosphorus pentachloride",
+    "smiles": "P(Cl)(Cl)(Cl)(Cl)Cl",
+    "svg": "chemical_structures/24819.svg"
+  },
+  "6326975": {
+    "name": "Phosphorus pentoxide",
+    "smiles": "O=P(=O)OP(=O)=O",
+    "svg": "chemical_structures/6326975.svg"
+  },
+  "24614": {
+    "name": "Phosphorus tribromide",
+    "smiles": "P(Br)(Br)Br",
+    "svg": "chemical_structures/24614.svg"
+  },
+  "6809": {
+    "name": "Phthalimide",
+    "smiles": "C1=CC=C2C(=C1)C(=O)NC2=O",
+    "svg": "chemical_structures/6809.svg"
+  },
+  "8082": {
+    "name": "Piperidine",
+    "smiles": "C1CCNCC1",
+    "svg": "chemical_structures/8082.svg"
+  },
+  "23689123": {
+    "name": "Potassium chlorochromate",
+    "smiles": "O=[Cr](=O)=O.[Cl-].[K+]",
+    "svg": "chemical_structures/23689123.svg"
+  },
+  "23676735": {
+    "name": "Potassium hydrogen phthalate",
+    "smiles": "C1=CC=C(C(=C1)C(=O)O)C(=O)[O-].[K+]",
+    "svg": "chemical_structures/23676735.svg"
+  },
+  "23665710": {
+    "name": "Potassium iodate",
+    "smiles": "[O-]I(=O)=O.[K+]",
+    "svg": "chemical_structures/23665710.svg"
+  },
+  "516896": {
+    "name": "Potassium periodate",
+    "smiles": "[O-]I(=O)(=O)=O.[K+]",
+    "svg": "chemical_structures/516896.svg"
+  },
+  "86639980": {
+    "name": "Potassium tert-butoxide",
+    "smiles": "CC(C)(C)O.[K]",
+    "svg": "chemical_structures/86639980.svg"
+  },
+  "1049": {
+    "name": "Pyridine",
+    "smiles": "C1=CC=NC=C1",
+    "svg": "chemical_structures/1049.svg"
+  },
+  "31268": {
+    "name": "Pyrrolidine",
+    "smiles": "C1CCNC1",
+    "svg": "chemical_structures/31268.svg"
+  },
+  "4311764": {
+    "name": "Sodium borohydride",
+    "smiles": "[BH4-].[Na+]",
+    "svg": "chemical_structures/4311764.svg"
+  },
+  "23665760": {
+    "name": "Sodium hypochlorite",
+    "smiles": "[O-]Cl.[Na+]",
+    "svg": "chemical_structures/23665760.svg"
+  },
+  "5360545": {
+    "name": "Sodium metal",
+    "smiles": "[Na]",
+    "svg": "chemical_structures/5360545.svg"
+  },
+  "4343483": {
+    "name": "Sodium tetrafluoroborate",
+    "smiles": "[B-](F)(F)(F)F.[Na+]",
+    "svg": "chemical_structures/4343483.svg"
+  },
+  "26052": {
+    "name": "Sodium tungstate",
+    "smiles": "[O-][W](=O)(=O)[O-].[Na+].[Na+]",
+    "svg": "chemical_structures/26052.svg"
+  },
+  "11439": {
+    "name": "Succinimide",
+    "smiles": "C1CC(=O)NC1=O",
+    "svg": "chemical_structures/11439.svg"
+  },
+  "2724126": {
+    "name": "TEMPO",
+    "smiles": "CC1(CCCC(N1[O])(C)C)C",
+    "svg": "chemical_structures/2724126.svg"
+  },
+  "67553": {
+    "name": "Tetrabutylammonium iodide",
+    "smiles": "CCCC[N+](CCCC)(CCCC)CCCC.[I-]",
+    "svg": "chemical_structures/67553.svg"
+  },
+  "31373": {
+    "name": "Tetrachloroethylene",
+    "smiles": "C(=C(Cl)Cl)(Cl)Cl",
+    "svg": "chemical_structures/31373.svg"
+  },
+  "8028": {
+    "name": "Tetrahydrofuran",
+    "smiles": "C1CCOC1",
+    "svg": "chemical_structures/8028.svg"
+  },
+  "24479": {
+    "name": "Tin(II) chloride",
+    "smiles": "Cl[Sn]Cl",
+    "svg": "chemical_structures/24479.svg"
+  },
+  "24287": {
+    "name": "Tin(IV) chloride",
+    "smiles": "Cl[Sn](Cl)(Cl)Cl",
+    "svg": "chemical_structures/24287.svg"
+  },
+  "6101": {
+    "name": "p-Toluenesulfonic acid",
+    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)O",
+    "svg": "chemical_structures/6101.svg"
+  },
+  "7397": {
+    "name": "p-Toluenesulfonyl chloride",
+    "smiles": "CC1=CC=C(C=C1)S(=O)(=O)Cl",
+    "svg": "chemical_structures/7397.svg"
+  },
+  "8471": {
+    "name": "Triethylamine",
+    "smiles": "CCN(CC)CC",
+    "svg": "chemical_structures/8471.svg"
+  },
+  "6422": {
+    "name": "Trifluoroacetic acid",
+    "smiles": "C(=O)(C(F)(F)F)O",
+    "svg": "chemical_structures/6422.svg"
+  },
+  "8470": {
+    "name": "Trimethyl borate",
+    "smiles": "B(OC)(OC)OC",
+    "svg": "chemical_structures/8470.svg"
+  },
+  "10541": {
+    "name": "Trimethyl phosphate",
+    "smiles": "COP(=O)(OC)OC",
+    "svg": "chemical_structures/10541.svg"
+  },
+  "11776": {
+    "name": "Triphenylphosphine",
+    "smiles": "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3",
+    "svg": "chemical_structures/11776.svg"
+  },
+  "94429": {
+    "name": "Triphosgene",
+    "smiles": "C(=O)(OC(Cl)(Cl)Cl)OC(Cl)(Cl)Cl",
+    "svg": "chemical_structures/94429.svg"
+  },
+  "5727": {
+    "name": "Zinc chloride",
+    "smiles": "Cl[Zn]Cl",
+    "svg": "chemical_structures/5727.svg"
+  }
+}
