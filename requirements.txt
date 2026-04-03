@@ -1,0 +1,4 @@
+pubchempy==1.0.5
+rdkit==2025.9.6
+reportlab==4.4.10
+svglib==1.6.0
