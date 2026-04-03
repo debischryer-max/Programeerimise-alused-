@@ -9,7 +9,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 from chemicals_db import select_chemicals_files, load_chemicals
 
-TESTS_DIR = "tests"
+_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TESTS_DIR = os.path.join(_ROOT_DIR, "tests")
 MOL_SIZE = 300
 IMG_WIDTH = 620
 IMG_HEIGHT = 340

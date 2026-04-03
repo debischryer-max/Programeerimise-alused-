@@ -3,7 +3,8 @@ import glob
 import os
 
 
-INPUT_DIR = "input"
+_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+INPUT_DIR = os.path.join(_ROOT_DIR, "input")
 
 
 def list_chemicals_files():

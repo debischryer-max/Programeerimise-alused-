@@ -1,12 +1,14 @@
 import json
 import os
+import platform
 import subprocess
 from datetime import datetime
 
 from show_results import print_results_table
 from chemicals_db import list_chemicals_files, load_chemicals
 
-TESTS_DIR = "tests"
+_ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+TESTS_DIR = os.path.join(_ROOT_DIR, "tests")
 
 
 def run_test():
@@ -40,7 +42,12 @@ def run_test():
 
     for i, filename in enumerate(images, 1):
         filepath = os.path.abspath(os.path.join(test_dir, filename))
-        subprocess.run(["open", filepath])
+        if platform.system() == "Windows":
+            os.startfile(filepath)
+        elif platform.system() == "Darwin":
+            subprocess.run(["open", filepath])
+        else:
+            subprocess.run(["xdg-open", filepath])
 
         print(f"\nImage {i}/{len(images)}: {filename}")
         while True:
